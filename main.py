@@ -1,3 +1,5 @@
-import user_storage as us
+from user_storage import UserManager as UM
 
-us.greet_user()
+user = UM()
+user.greet_user()
+    
